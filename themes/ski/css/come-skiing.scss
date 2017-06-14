@@ -1,0 +1,81 @@
+@import "settings/settings.config";
+@import "settings/settings.core";
+@import "settings/settings.global";
+
+.o-intro {
+	a {
+		margin-top: 20px;
+	}
+}
+
+.o-testimonials {
+	background: #f4f4f4;
+	padding: 100px 0 90px;
+	
+	h2 {
+		padding: 0 100px;
+	}
+
+	.carousel {
+		margin-top: 40px;
+		
+		&-inner {
+			min-height: 150px;
+			position: relative;
+	
+			.item {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 100%;
+			
+				.carousel-caption {
+					font-size: 16px;
+					width: 100%;
+					
+					b {
+						display: block;
+						font-size: 20px;
+						margin-bottom: 10px;
+					}
+				
+					p {
+						margin-bottom: 5px;
+					}
+				
+					i {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+}
+
+#map {
+  height: 820px;
+  padding: 0;
+  width: 100%; 
+}
+
+@media screen and (max-width: 767px) {
+	.o-testimonials {
+		padding: 50px 0;
+		
+		h2 {
+			padding: 0;
+		}
+	
+		.carousel {
+			margin-top: 30px;
+			
+			&-inner {
+				min-height: 220px;
+			}
+		}
+	}
+	
+	#map {
+	  height: 300px;
+	}
+}

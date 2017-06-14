@@ -1,0 +1,62 @@
+figure {
+	position: relative;
+	margin: 0;
+	
+	img {
+		width: 100%;
+	}
+}
+
+.banner-textured {
+	figcaption {
+		font-size: 17px;
+		width: 100%;
+		padding: 0 30px;
+		position: absolute;
+		bottom: 30%;
+		z-index: 1000;
+	}
+
+	.overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: auto;
+		bottom: -1px;
+		z-index: 1001;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.banner-textured {
+		overflow: hidden;
+		width: 100%;
+   		
+		img {
+			max-width: none!important;
+			width: auto!important;
+			height:300px;
+			margin-left: 50%;
+			transform: translateX(-50%);	
+		}
+	
+		.overlay {
+			height: auto;
+			width: 100%!important;
+		}
+	}
+
+	.banner {
+		overflow: hidden;
+		width: 100%;
+   		
+		img {
+			max-width: none!important;
+			width: auto!important;
+			height:200px;
+			margin-left: 50%;
+			transform: translateX(-50%);	
+		}
+	}
+}

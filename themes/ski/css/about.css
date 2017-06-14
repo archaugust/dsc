@@ -1,0 +1,45 @@
+.o-instructors {
+  margin: 80px 0 50px; }
+
+.o-instructor {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: #ededed;
+  margin-bottom: 55px; }
+  .o-instructor img {
+    width: 390px;
+    order: 1;
+    align-self: auto;
+    min-width: 390px; }
+  .o-instructor div {
+    text-align: left;
+    padding: 10px 70px 0;
+    order: 2;
+    width: 100%;
+    align-self: auto; }
+  .o-instructor.even img {
+    order: 2; }
+  .o-instructor.even div {
+    order: 1; }
+
+@media screen and (max-width: 767px) {
+  .o-instructors {
+    margin: 30px 0 20px; }
+
+  .o-instructor {
+    display: block;
+    margin-bottom: 55px; }
+    .o-instructor > * {
+      display: block; }
+    .o-instructor img {
+      width: 100%;
+      min-width: auto; }
+    .o-instructor div {
+      text-align: left;
+      padding: 20px;
+      width: 100%; } }
+
+/*# sourceMappingURL=about.css.map */

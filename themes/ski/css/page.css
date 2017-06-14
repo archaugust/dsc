@@ -1,0 +1,13 @@
+.o-page {
+  font-size: 14px; }
+  .o-page h1 {
+    margin: 0;
+    line-height: 39px;
+    margin-bottom: 20px; }
+  .o-page h4 {
+    margin-bottom: 10px; }
+  .o-page > div {
+    font-size: 18px;
+    color: #000; }
+
+/*# sourceMappingURL=page.css.map */

@@ -1,0 +1,100 @@
+.c-header {
+	height: 163px;
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	background: $global-primary-color;
+	font-size: 17px;
+
+	
+	a {
+		color: #fff;
+	}
+	
+	.o-header-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.o-logo-container {
+		height: 163px;
+		padding: 30px 20px 0 25px;
+		background: #fff;
+		display: inline-block;
+	}
+
+	.o-logo {
+		height: 119px;
+	}
+
+	.o-toolbar {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 58px;
+		padding-top: 15px;
+		background: $global-secondary-color;
+		text-align: right;
+		letter-spacing: .04em;
+		
+		> div > * {
+			display: inline-block;
+			margin-left: 45px;
+		}
+	}
+
+	.o-menu {
+		position: absolute;
+		top: 95px;
+		right: 0;
+		font-weight: 600;
+		z-index: 1000;
+		
+		ul {
+			margin-left: 0;
+			list-style: none;
+		}
+	
+		li {
+			display: inline-block;
+			margin-left: 40px;
+			
+			.current {
+				opacity: .8;
+			}
+		}
+	
+		a {
+			color: #fff;
+			letter-spacing: .07em;
+			
+			&:hover {
+				opacity: .8;
+			}
+		}
+	}
+}
+
+.c-header.affix {
+	height: 116px;
+
+	.o-logo-container {
+		height: 116px;
+		padding: 15px 15px 0;
+	}
+
+	.o-logo {
+		height: 96px!important;
+	}
+
+	.o-menu {
+		position: absolute;
+		top: 72px;
+	}
+}

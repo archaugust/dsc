@@ -1,0 +1,22 @@
+@import "settings/settings.config";
+@import "settings/settings.core";
+@import "settings/settings.global";
+
+.o-page {
+	font-size: 14px;
+	
+	h1 {
+		margin: 0;
+		line-height: 39px;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		margin-bottom: 10px;
+	}
+
+	> div {
+		font-size: 18px;
+		color: #000;
+	}
+}

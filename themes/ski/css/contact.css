@@ -1,0 +1,27 @@
+.o-contact {
+  background: #f4f4f4; }
+  .o-contact .o-layout__item {
+    padding: 0 50px 0 100px; }
+
+.o-contact-form input {
+  margin-bottom: 20px; }
+.o-contact-form textarea {
+  height: 250px; }
+
+.o-contact-content strong {
+  font-weight: 600;
+  color: #cd202c; }
+.o-contact-content em {
+  font-weight: 600; }
+.o-contact-content a {
+  color: #000; }
+.o-contact-content i {
+  color: #444545;
+  font-size: 50px;
+  margin-right: 15px; }
+
+@media screen and (max-width: 767px) {
+  .o-contact .o-layout__item {
+    padding: 0 5px 0 25px; } }
+
+/*# sourceMappingURL=contact.css.map */
